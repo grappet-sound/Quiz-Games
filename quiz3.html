@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quizzes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div id="question">what is 4+77</div>
+    <div id="optionBox">
+        <button id="option1" onclick="selectOption(0);">81</button>
+        <button id="option2" onclick="selectOption(1);">4</button>
+        <button id="option3" onclick="selectOption(2);">91</button>
+        <button id="option4" onclick="selectOption(3);">33</button>
+    </div>
+    </div>
+    
+    <div class="resultPopup" id="popup">
+        <div>Your Score Is </div>
+        <div id="resultPopup">100</div>
+        <div class="space"></div>
+        <button id="restart" onclick="restartQuiz();"></button>
+        <button id="main" onclick="mainMenu();"></button>
+    </div>
+
+    <script type="text/javascript" src="script/quiz3.js"></script>
+</body>
+</html>
